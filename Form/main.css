@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom left,rgba(110, 110, 142, 0.673),rgba(92, 92, 197, 0.621),rgba(20, 20, 209, 0.516));
+}
+.formBox{
+    width: 60%;
+    height: 70%;
+    box-shadow: 0 0 30px rgba(240, 240, 240, 0.54);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.heading{
+    font-size: 3rem;
+    
+    font-weight: 700;
+    color: hotpink;
+    text-shadow: 0 0 10px rgba(20, 20, 209, 0.516);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.formContent{
+    width: 50%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.label{
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+.field{
+    margin-inline: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.field.field5 {
+    align-self: center;
+}
+.btn{
+    padding-inline: 3rem;
+    padding-block: .34rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    outline-color: transparent;
+    background-color: transparent;
+    border: 1px solid #fff;
+    cursor:pointer;
+    box-shadow: 0 0 20px rgba(33, 164, 190, 0.6);
+}
+input[type= "text"],input[type="email"],input[type="password"]{
+    font-size: 1rem;
+    padding-inline: 1rem;
+    padding-block: .2rem;
+    border-radius: .3rem;
+    outline-color: transparent;
+    border: none;
+    box-shadow: 0 0 20px rgba(33, 164, 190, 0.6);
+}

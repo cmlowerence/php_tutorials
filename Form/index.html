@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<link rel="stylesheet" href="./main.css">
+
+<body>
+    <div class="container">
+        <form method="post" action="./main.php" class="formBox">
+            <h1 class="heading">Registration Form</h1>
+            <div class="formContent">
+                <span class="field field1">
+                    <label class="label" for="firstName">First Name:- </label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                </span>
+                <span class="field field2">
+                    <label class="label" for="lastName">Last Name:- </label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                </span>
+                <span class="field field3">
+                    <label class="label" for="emailID">Email:- </label>
+                    <input type="email" name="emailID" id="emailID" placeholder="abc@gmail.com">
+                </span>
+                <span class="field field4">
+                    <label class="label" for="password">Password:- </label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </span>
+                <span class="field field5">
+                    <input type="submit" name="submit" value="Submit" class="btn">
+                </span>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
