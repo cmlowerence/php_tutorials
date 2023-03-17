@@ -35,9 +35,7 @@
             include('config.php');
             session_start();
             if ($_SERVER["REQUEST_METHOD"] == 'POST') {
-                // $user = mysqli_real_escape_string($conn,$_POST['username']);
                 $user = $_POST['username'];
-                // $usr_password = mysqli_real_escape_string($conn,$_POST['password']) ;
                 $usr_password = $_POST['password'];
                 $sql = "SELECT 'Serial_No' FROM user_login_info WHERE username = '$user' and password = '$usr_password'";
                 $result = mysqli_query($conn,$sql);
